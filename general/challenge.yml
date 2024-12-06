@@ -1,0 +1,20 @@
+name: "Why so serious?"
+author: "sikk"
+category: Reversing
+description: png 파일에 숨어있는 플래그를 찾아라.
+
+value: 50
+type: standard
+
+flags:
+    - HACK{hello_world}
+
+tags:
+    - png stego
+
+files:
+    - dist/whysoserious.png
+
+state: visible
+
+version: "0.1"

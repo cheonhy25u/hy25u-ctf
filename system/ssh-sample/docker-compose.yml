@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  hy25u-ssh-sample:
+    build: .
+    image: "hy25u-ssh-sample"
+    restart: always
+    ports: 
+      - "7502:22"
