@@ -1,0 +1,18 @@
+name: check js
+description: |-
+  홈페이지에서 탈출할 수 있는 방법을 찾으세요
+
+flag: "HACK{no_grizzly_walls_here}"
+
+value : 80
+containers:
+  main:
+    build: .
+    ports:
+      - 80
+
+expose:
+  main:
+
+    - target: 80
+      http: javascryption
